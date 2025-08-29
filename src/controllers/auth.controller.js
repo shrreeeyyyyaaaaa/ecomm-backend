@@ -92,4 +92,3 @@ exports.me = async (req, res) => {
     const user = await User.findById(req.user.id).lean();
     res.json({ user });
 };
-//mlkjbhilk
