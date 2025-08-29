@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     REGISTRY_CRED = 'dockerhub-creds'
-    REGISTRY_IMAGE = 'loyalty082/node-auth-api'
+    REGISTRY_IMAGE = 'shrreeeyyyyaaaaa/node-auth-api'
     // Short SHA tag + 'latest'
     IMAGE_TAG = "${env.GIT_COMMIT.take(7)}"
   }
